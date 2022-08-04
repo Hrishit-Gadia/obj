@@ -1,0 +1,33 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+.Images {
+    height : 250px;
+    border-radius: 25px;
+    box-shadow: 3px 3px gray;
+    display : inline-block
+}
+
+.right, .left{
+    width : 80%;
+    background-color: aqua;
+    border: black solid 1px;
+    border-radius: 25px;
+}
+.right{
+    text-align: left;
+}
+.left{
+    text-align: right;
+}
+
+.right-text{
+    height: 100%;
+    display: inline-block;
+}
+
+canvas{
+    margin-top: 100px;
+}
